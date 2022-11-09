@@ -20,7 +20,7 @@ contract Airdrop is Ownable {
             "Airdrop: Recipients and amount length mismatch"
         );
         for (uint256 i = 0; i < _recipients.length; i++) {
-            IERC20(token).transfer(_recipients[i], amount[i]);
+            IERC20(token).transferFrom(msg.sender, _recipients[i], amount[i]);
         }
     }
 }
