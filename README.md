@@ -1,4 +1,4 @@
-# Magna Take-Home Assessment
+# Magna Take-Home Base Contracts
 
 ## Smart Contracts:
 - `MagnaToken.sol` -> an example ERC20 token that is deployed for the Airdrop.
